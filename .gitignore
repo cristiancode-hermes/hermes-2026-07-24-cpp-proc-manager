@@ -1,0 +1,38 @@
+# Build
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+*.cmake
+
+# Dependencies (fetched by FetchContent)
+_deps/
+
+# Environment
+.env
+*.env.local
+
+# Package files
+*.tar.gz
+*.zip
